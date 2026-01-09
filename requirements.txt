@@ -1,0 +1,22 @@
+# --- Core & API ---
+fastapi[all]>=0.110.0      # Framework web moderno e rápido
+uvicorn>=0.27.0            # Servidor para rodar o FastAPI
+
+# --- Database (MongoDB Async) ---
+motor>=3.3.2               # Driver assíncrono para MongoDB
+pydantic-settings>=2.2.1   # Gestão de variáveis de ambiente
+
+# --- Scraping & Data Ingestion ---
+feedparser>=6.0.10         # Parse de feeds RSS (Google News)
+httpx>=0.27.0              # Cliente HTTP moderno e async (substituto do requests)
+playwright>=1.42.0         # Automação de browser moderna
+playwright-stealth>=1.0.6  # Evitar detecção de bots
+
+# --- AI & NLP ---
+langchain>=0.1.12          # Orquestração de prompts e modelos
+langchain-community>=0.0.28 
+ollama>=0.1.7              # Cliente para rodar o Llama 3 localmente
+
+# --- Utils ---
+python-dotenv>=1.0.1       # Carregar segredos de arquivos .env
+loguru>=0.7.2              # Logs bonitos e fáceis de usar
